@@ -1,0 +1,22 @@
+{
+    "version": "0.6.0",
+    "description": "Search, install, and manage AI tools for Claude Code, Cursor, and Windsurf",
+    "homepage": "https://conduitai.app",
+    "license": "MIT",
+    "depends": "nodejs",
+    "url": "https://registry.npmjs.org/@conduitai-app/cli/-/cli-0.6.0.tgz",
+    "hash": "865bc5728575d4f4ce8551995fac47c1109efc04f4f86972f706df01567e5a25",
+    "pre_install": "npm install --global @conduitai-app/cli@0.6.0",
+    "bin": "conduitai.cmd",
+    "post_install": "Write-Output 'conduitai installed. Run: conduitai auth login'",
+    "uninstaller": {
+        "script": "npm uninstall --global @conduitai-app/cli"
+    },
+    "checkver": {
+        "url": "https://registry.npmjs.org/@conduitai-app/cli",
+        "jsonpath": "$['dist-tags'].latest"
+    },
+    "autoupdate": {
+        "url": "https://registry.npmjs.org/@conduitai-app/cli/-/cli-$version.tgz"
+    }
+}
