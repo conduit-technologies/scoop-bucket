@@ -1,11 +1,11 @@
 {
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Search, install, and manage AI tools for Claude Code, Cursor, and Windsurf",
   "homepage": "https://conduitai.app",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/conduit-technologies/conduitai-cli/releases/download/cli-v0.9.1/conduitai-win-x64.exe",
+      "url": "https://github.com/conduit-technologies/conduitai-cli/releases/download/cli-v0.9.2/conduitai-win-x64.exe",
       "hash": "355ec054428dd372419c655fe38c589155cc8bdcf0d2f5a29946867c5d964218"
     }
   },
